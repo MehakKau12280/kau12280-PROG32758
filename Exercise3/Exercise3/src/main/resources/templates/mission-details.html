@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission Details</title>
+</head>
+<body>
+    <h1>The mission <span th:text="${mission.missionTitle}"></span> with your gadget <span th:text="${mission.gadgets}"></span> has been added</h1>
+   Click to <a href="/">go home</a><br>
+    Click to view <a href="/missions">mission list</a>
+</body>
+</html>

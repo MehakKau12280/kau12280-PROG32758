@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a Mission</title>
+</head>
+<body>
+    <h1>Missions</h1>
+    <h2>Please add a mission and gadget<br><br>
+    <form action="/missions" method="post">
+<label for="missionTitle">Enter Mission:</label>
+<input type="text" id="missionTitle" name="missionTitle"><br><br>
+
+<label for="gadgets">Enter Gadget:</label>
+<input type="text" id="gadgets" name="gadgets"><br><br>
+ 
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
