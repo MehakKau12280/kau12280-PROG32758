@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>School Listing</title>
+</head>
+<body>
+    <h1>Here are the Schools:</h1>
+    <ul>
+        <li th:each="school : ${schools}">
+            <span th:text="${school.schoolName}"></span> in <span th:text="${school.schoolAddress}"></span> has <span th:text="${school.numStudents}"></span> students
+            
+        </li>
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>
