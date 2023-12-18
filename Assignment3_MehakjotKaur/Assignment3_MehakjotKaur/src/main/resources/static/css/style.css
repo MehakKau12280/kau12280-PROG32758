@@ -1,0 +1,19 @@
+
+
+input[type=password]{
+	background-color: mediumpurple;
+}
+
+input[tpe=submit]:hover{
+	background-color: #45A049;
+}
+
+
+h1{
+	color:rebeccapurple;
+}
+
+
+.error{
+	color:red;
+}

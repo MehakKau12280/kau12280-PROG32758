@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Add a Book</h1>
+	<form method="post" th:action="@{/add-book}">
+		Title:<input type="text" id="title" name="title">
+		Author:<input type="text" id="author" name="author">
+		<button type="submit">Add book</button>
+	</form>
+	<br>
+	<form th:action="@{/logout}" method="post">
+		<input type="submit" value="Logout" />
+	</form>
+	<br>
+	<a th:href="@{/}">Back to index</a>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Permission Denied</h1>
+	<h3>You don't have permission to view secure page!</h3>
+	<p><a href="#" th:href="@{/}">Main Index</a></p>
+	<form th:action="@{/logout}" action="#" method="post">
+		<input type="submit" value="logout">
+	</form>
+</body>
+</html>
